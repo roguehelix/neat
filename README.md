@@ -1,4 +1,4 @@
-[![Neat](http://images.thoughtbot.com/bourbon/neat-logo.svg)](http://neat.bourbon.io)
+[![Neat](http://images.thoughtbot.com/bourbon/neat-logo-v2.svg)](http://neat.bourbon.io)
 
 ## A lightweight grid framework
 
@@ -11,6 +11,15 @@ Neat is a fluid grid framework with the aim of being easy enough to use out of t
 
 Follow the [@bourbonsass](https://twitter.com/bourbonsass) Twitter account
 for updates.
+
+## Table of Contents
+
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [The Bourbon Family](#the-bourbon-family)
+- [Contributing](#contributing)
+- [License](#license)
+- [About](#about)
 
 ## Requirements
 
@@ -48,7 +57,7 @@ For command line help, visit our wiki page on Neat’s [command line interface](
 
   It’s not recommended to add or modify the Neat files so that you can update them easily.
 
-## Installation for Ruby on Rails 4.2+
+### Installation for Ruby on Rails 4.2+
 
 1. Add Neat to your Gemfile:
 
@@ -76,7 +85,7 @@ For command line help, visit our wiki page on Neat’s [command line interface](
 
   It should be noted that `@import` rules are not compatible with Sprockets directives. You need to use one or the other.
 
-## Installing with npm and using a Node-based asset pipeline
+### Installing with npm and using a Node-based asset pipeline
 
 1. Add Neat as a dependency:
 
@@ -93,7 +102,7 @@ For command line help, visit our wiki page on Neat’s [command line interface](
   @import "neat";
   ```
 
-## Installing older versions of Neat
+### Installing older versions of Neat
 
 1. Uninstall any Neat gem versions you already have:
 
@@ -104,7 +113,7 @@ For command line help, visit our wiki page on Neat’s [command line interface](
 2. Reinstall the Neat gem, using the `-v` flag to specify the version you need:
 
   ```bash
-  gem install neat -v 1.7.0
+  gem install neat -v 1.8.1
   ```
 
 3. Follow the [instructions above](#installation) to install Neat into your project.
@@ -116,14 +125,12 @@ For command line help, visit our wiki page on Neat’s [command line interface](
 - [Bitters](https://github.com/thoughtbot/bitters): Scaffold styles, variables and structure for Bourbon projects
 - [Refills](https://github.com/thoughtbot/refills): Prepackaged patterns and components built with Bourbon, Neat and Bitters
 
-Also check out [Proteus](https://github.com/thoughtbot/proteus), a collection of useful starter kits to help you prototype faster. Each kit comes with Bourbon, Neat and Bitters out-of-the-box.
-
 ## Contributing
 
 See the [contributing] document. Thank you, [contributors]!
 
   [contributing]: CONTRIBUTING.md
-  [contributors]: https://github.com/thoughtbot/bourbon/graphs/contributors
+  [contributors]: https://github.com/thoughtbot/neat/graphs/contributors
 
 ## License
 
