@@ -33,7 +33,7 @@
     "test": "echo \"No test specified\""
   },
   "devDependencies": {
-    "node-sass": "^3.4"
+    "node-sass": "^3.4",
     "gulp": "^3.9",
     "gulp-autoprefixer": "^3.1",
     "gulp-connect": "^2.3",
